@@ -1,0 +1,36 @@
+{
+  "name": "angular-parse",
+  "version": "0.0.0",
+  "authors": [
+    "Sachit Malhotra <sachitsac@gmail.com>"
+  ],
+  "description": "Angularjs Module using parse Rest Api",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2",
+    "angular-resource": "1.2",
+    "angular-sanitize": "1.2",
+    "angular-slider": "~0.1.6",
+    "angular-animate": "1.2",
+    "angular-route": "1.2",
+    "angular-ui-bootstrap-bower": "~0.11.0",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.0.3",
+    "less.js": "~1.7.0",
+    "spin.js": "~2.0.1",
+    "requirejs": "~2.1.13",
+    "jsonpath": "*",
+    "angular-ui-utils": "~0.1.1"
+  }
+}

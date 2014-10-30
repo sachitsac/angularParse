@@ -1,0 +1,8 @@
+!app/scripts/lib/
+app/scripts/lib/*
+app/scripts/templates.js
+!app/scripts/lib/custom.modernizr.js
+build
+node_modules
+dist
+.tmp/
