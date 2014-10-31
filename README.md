@@ -55,7 +55,7 @@ A **ready to deploy** version will be ready at *./dist*, which includes pre-proc
 
 ### Clean
 ```shell
-make publish
+make clean
 ```
 This will clean the directories removing any unwanted files/folders.
 
