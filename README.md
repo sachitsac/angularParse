@@ -3,7 +3,7 @@
 * [npm](https://www.npmjs.org/)
 * [bower](http://bower.io/)
 * [grunt](http://gruntjs.com/)
-* Modern browser (although angular 1.2.x supports, that will not be true from 1.3.xxx)
+* Modern browser (although angular 1.2.x supports IE8, that will not be true from 1.3.xxx)
 
 ## Install
 
@@ -55,7 +55,7 @@ A **ready to deploy** version will be ready at *./dist*, which includes pre-proc
 
 ### Clean
 ```shell
-make publish
+make clean
 ```
 This will clean the directories removing any unwanted files/folders.
 
