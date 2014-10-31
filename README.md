@@ -58,7 +58,10 @@ A **ready to deploy** version will be ready at *./dist*, which includes pre-proc
 make test
 ```
 This will start the testing using karma, jasmine. If you wish to enable continuous watching, then in karma config file, change singleRun: true to singleRun: false.
+
 [Click here for more karma configuration](https://github.com/karma-runner/grunt-karma)
+
+Also if using a continuos integration environment, then its best to use [PhantomJs](http://phantomjs.org/) headless browser if native browsers are not available.
 
 ### Clean
 ```shell
