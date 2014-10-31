@@ -15,16 +15,23 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test-main.js',
+      {pattern: 'app/scripts/lib/angular/angular.min.js', included: false},
+      {pattern: 'app/scripts/lib/angular-route/angular-route.min.js', included: false},
+      {pattern: 'app/scripts/lib/less.js/dist/less-1.7.5.min.js', included: false},
+      {pattern: 'app/scripts/lib/jquery/dist/jquery.min.js', included: false},
+      {pattern: 'app/scripts/lib/bootstrap/dist/js/bootstrap.min.js', included: false},
       {pattern: 'app/scripts/*.js', included: false},
       {pattern: 'app/scripts/controllers/*.js', included: false},
       {pattern: 'app/scripts/directives/*.js', included: false},
-      {pattern: 'app/scripts/services/*.js', included: false}
+      {pattern: 'app/scripts/services/*.js', included: false},
+      {pattern: 'app/test/spec/**/*.js', included: false},
+      'app/test/test-main.js'
     ],
 
 
     // list of files to exclude
     exclude: [
+      'app/scripts/init.js'
     ],
 
 
