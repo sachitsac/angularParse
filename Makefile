@@ -9,6 +9,9 @@ publish:
 dev:
 	@echo "Starting dev environment..."
 	@grunt dev
+test: 
+	@echo "Starting testing..."
+	@grunt test
 clean:
 	@echo "Cleaning..."
 	@grunt clean

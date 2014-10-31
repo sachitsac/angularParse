@@ -150,9 +150,15 @@ module.exports = function(grunt) {
                 src: ['styles/main.css'],
                 dest: config.path.dist
             }
+        },
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js'                
+            }
         }
     });
     grunt.registerTask('dev', ['watch']);
     // !IMPORTANT - order is important
     grunt.registerTask('build', ['clean', 'ngtemplates', 'jshint', 'copy', 'requirejs', 'replace:fontAwesome', 'less', 'replace:requirejs', 'useminPrepare', 'concat', 'cssmin', 'usemin', 'replace:less', 'htmlmin']);
+    grunt.registerTask('test', ['karma']);
 };
